@@ -1,0 +1,551 @@
+Benchmark,Model,Task_Name,Task_Version,Evaluation_Date,Numerical_Result,Upper_Confidence_Limit,Lower_Confidence_Limit,Boolean_Result
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,,1,20-12-2025 16:41,0.846153846,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Equipment Material Selection,1,18-12-2025 22:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Root Cause Analysis,1,18-12-2025 22:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Dewatering System Root Cause,1,18-12-2025 22:21,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Digester Walkway Material Selection,2,18-12-2025 22:24,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Confined Space Emergency Response,3,18-12-2025 21:49,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:26,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Sample Preservation Protocol,1,18-12-2025 22:26,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Confined Space Tool Selection,1,18-12-2025 22:23,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:06,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP SCADA Cabling Standards,1,18-12-2025 22:18,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:25,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:41,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s2_wwtp_pump_failure,1,07-02-2026 16:47,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s5_wwtp_sensor_conflict,1,07-02-2026 18:21,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s1_wwtp_morning_v6,1,07-02-2026 16:24,0.692,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s3_wwtp_biogas_leak_v2,1,07-02-2026 17:08,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s4_wwtp_confined_space_v2,1,07-02-2026 17:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s6_wwtp_illegal_discharge_v2,1,07-02-2026 18:45,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s7_wwtp_blower_hallucination_v2,1,07-02-2026 19:05,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s8_wwtp_night_security_v4,1,07-02-2026 20:01,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s9_wwtp_flood_cascade_v2,1,07-02-2026 20:14,0.6,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,s10_wwtp_blackout_v3,1,07-02-2026 20:25,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-20250514,wwtp_operator_challenge,3,11-02-2026 22:55,48,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,,1,20-12-2025 16:41,0.846153846,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Equipment Material Selection,1,18-12-2025 07:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Root Cause Analysis,1,18-12-2025 08:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Dewatering System Root Cause,1,18-12-2025 08:32,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Digester Walkway Material Selection,2,18-12-2025 12:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Confined Space Emergency Response,3,18-12-2025 13:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:01,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Sample Preservation Protocol,1,18-12-2025 19:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Confined Space Tool Selection,1,18-12-2025 20:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 20:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP SCADA Cabling Standards,1,18-12-2025 21:14,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:17,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:41,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s2_wwtp_pump_failure,1,07-02-2026 16:36,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s5_wwtp_sensor_conflict,1,07-02-2026 18:21,0.8,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s1_wwtp_morning_v6,1,07-02-2026 16:20,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s3_wwtp_biogas_leak_v2,1,07-02-2026 17:08,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s4_wwtp_confined_space_v2,1,07-02-2026 17:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s6_wwtp_illegal_discharge_v2,1,07-02-2026 18:45,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s7_wwtp_blower_hallucination_v2,1,07-02-2026 19:05,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s8_wwtp_night_security_v4,1,07-02-2026 20:01,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s9_wwtp_flood_cascade_v2,1,07-02-2026 20:14,0.6,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,s10_wwtp_blackout_v3,1,07-02-2026 20:25,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,claude-sonnet-4-5-20250929,wwtp_operator_challenge,3,11-02-2026 22:40,43,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,,1,10-02-2026 19:10,0.846153846,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Equipment Material Selection,1,10-02-2026 18:07,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Root Cause Analysis,1,10-02-2026 18:08,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Dewatering System Root Cause,1,10-02-2026 18:19,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Digester Walkway Material Selection,2,10-02-2026 18:24,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Confined Space Emergency Response,3,24-01-2026 22:21,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Biogas Desulfurization Recovery,1,10-02-2026 18:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Sample Preservation Protocol,1,10-02-2026 18:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Confined Space Tool Selection,1,10-02-2026 18:37,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Activated Sludge Emergency Flocculation,1,10-02-2026 18:37,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP SCADA Cabling Standards,1,10-02-2026 18:40,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Odor Collection Pipe Material Selection,1,10-02-2026 19:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Primary Clarifier Design Criteria,1,10-02-2026 19:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,10-02-2026 18:04,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s2_wwtp_pump_failure,1,10-02-2026 06:01,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s5_wwtp_sensor_conflict,1,10-02-2026 06:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s1_wwtp_morning_v6,1,10-02-2026 06:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s4_wwtp_confined_space_v2,1,10-02-2026 08:10,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:35,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:07,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s8_wwtp_night_security_v4,1,10-02-2026 11:28,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:04,0.8,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,s10_wwtp_blackout_v3,1,10-02-2026 13:34,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.2,wwtp_operator_challenge,3,11-02-2026 22:37,39,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,,1,10-02-2026 19:10,0.846153846,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Equipment Material Selection,1,10-02-2026 18:07,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Root Cause Analysis,1,10-02-2026 18:08,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Dewatering System Root Cause,1,10-02-2026 18:19,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Digester Walkway Material Selection,2,10-02-2026 18:24,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Confined Space Emergency Response,3,10-02-2026 18:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Biogas Desulfurization Recovery,1,10-02-2026 18:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Sample Preservation Protocol,1,10-02-2026 18:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Confined Space Tool Selection,1,10-02-2026 18:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Activated Sludge Emergency Flocculation,1,10-02-2026 18:37,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP SCADA Cabling Standards,1,10-02-2026 18:40,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Odor Collection Pipe Material Selection,1,10-02-2026 18:40,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Primary Clarifier Design Criteria,1,10-02-2026 19:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,10-02-2026 18:03,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s2_wwtp_pump_failure,1,10-02-2026 06:01,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s5_wwtp_sensor_conflict,1,10-02-2026 06:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s1_wwtp_morning_v6,1,10-02-2026 06:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s4_wwtp_confined_space_v2,1,10-02-2026 08:10,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:35,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:07,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s8_wwtp_night_security_v4,1,10-02-2026 11:28,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:04,0.4,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,s10_wwtp_blackout_v3,1,10-02-2026 13:34,0.812,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-instruct,wwtp_operator_challenge,3,11-02-2026 22:37,48,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,,1,20-12-2025 16:43,0.769230769,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Equipment Material Selection,1,18-12-2025 22:29,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Root Cause Analysis,1,19-12-2025 05:39,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Dewatering System Root Cause,1,18-12-2025 22:16,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Digester Walkway Material Selection,2,19-12-2025 05:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Confined Space Emergency Response,3,18-12-2025 21:50,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:26,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Sample Preservation Protocol,1,19-12-2025 05:30,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Confined Space Tool Selection,1,19-12-2025 06:07,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:12,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP SCADA Cabling Standards,1,18-12-2025 22:14,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:27,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:47,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s2_wwtp_pump_failure,1,10-02-2026 06:27,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s5_wwtp_sensor_conflict,1,10-02-2026 06:44,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s1_wwtp_morning_v6,1,10-02-2026 07:03,0.923,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:48,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s4_wwtp_confined_space_v2,1,10-02-2026 08:20,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:40,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s8_wwtp_night_security_v4,1,10-02-2026 11:58,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s9_wwtp_flood_cascade_v2,1,10-02-2026 13:12,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,s10_wwtp_blackout_v3,1,10-02-2026 13:50,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-lite-001,wwtp_operator_challenge,3,11-02-2026 22:55,42,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,,1,20-12-2025 16:43,0.769230769,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Equipment Material Selection,1,18-12-2025 22:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Root Cause Analysis,1,18-12-2025 22:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Dewatering System Root Cause,1,18-12-2025 22:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Digester Walkway Material Selection,2,18-12-2025 22:31,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Confined Space Emergency Response,3,18-12-2025 21:58,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:02,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Sample Preservation Protocol,1,18-12-2025 22:26,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Confined Space Tool Selection,1,18-12-2025 22:23,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:06,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP SCADA Cabling Standards,1,18-12-2025 22:08,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:25,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:48,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s2_wwtp_pump_failure,1,07-02-2026 16:36,0.786,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s5_wwtp_sensor_conflict,1,07-02-2026 18:21,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s1_wwtp_morning_v6,1,07-02-2026 16:17,0.923,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s3_wwtp_biogas_leak_v2,1,07-02-2026 17:08,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s4_wwtp_confined_space_v2,1,07-02-2026 17:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s6_wwtp_illegal_discharge_v2,1,07-02-2026 18:45,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s7_wwtp_blower_hallucination_v2,1,07-02-2026 19:05,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s8_wwtp_night_security_v4,1,07-02-2026 20:01,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s9_wwtp_flood_cascade_v2,1,07-02-2026 20:14,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,s10_wwtp_blackout_v3,1,07-02-2026 20:25,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-235b-a22b-instruct-2507,wwtp_operator_challenge,3,11-02-2026 22:52,38,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,,1,20-12-2025 16:41,0.769230769,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Equipment Material Selection,1,18-12-2025 22:29,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Root Cause Analysis,1,19-12-2025 05:39,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Dewatering System Root Cause,1,18-12-2025 22:21,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Digester Walkway Material Selection,2,18-12-2025 22:31,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Confined Space Emergency Response,3,18-12-2025 21:51,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:04,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Sample Preservation Protocol,1,19-12-2025 05:30,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Confined Space Tool Selection,1,19-12-2025 06:07,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:12,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP SCADA Cabling Standards,1,18-12-2025 22:14,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:25,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:41,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s2_wwtp_pump_failure,1,10-02-2026 06:04,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s5_wwtp_sensor_conflict,1,10-02-2026 06:41,0.8,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s1_wwtp_morning_v6,1,10-02-2026 06:53,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:28,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s4_wwtp_confined_space_v2,1,10-02-2026 08:15,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:12,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s8_wwtp_night_security_v4,1,10-02-2026 11:47,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:44,0.6,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,s10_wwtp_blackout_v3,1,10-02-2026 13:40,0.75,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-v3.1,wwtp_operator_challenge,3,11-02-2026 22:47,34,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,,1,20-12-2025 16:41,0.769230769,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Equipment Material Selection,1,18-12-2025 07:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Root Cause Analysis,1,18-12-2025 08:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Dewatering System Root Cause,1,18-12-2025 08:32,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Digester Walkway Material Selection,2,18-12-2025 12:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Confined Space Emergency Response,3,18-12-2025 13:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:02,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Sample Preservation Protocol,1,18-12-2025 19:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Confined Space Tool Selection,1,18-12-2025 20:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 20:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP SCADA Cabling Standards,1,18-12-2025 21:14,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:17,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:41,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s2_wwtp_pump_failure,1,07-02-2026 16:36,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s5_wwtp_sensor_conflict,1,07-02-2026 18:21,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s1_wwtp_morning_v6,1,07-02-2026 16:20,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s3_wwtp_biogas_leak_v2,1,07-02-2026 17:08,0.929,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s4_wwtp_confined_space_v2,1,07-02-2026 17:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s6_wwtp_illegal_discharge_v2,1,07-02-2026 18:45,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s7_wwtp_blower_hallucination_v2,1,07-02-2026 19:05,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s8_wwtp_night_security_v4,1,07-02-2026 20:01,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s9_wwtp_flood_cascade_v2,1,07-02-2026 20:14,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,s10_wwtp_blackout_v3,1,07-02-2026 20:25,0.625,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-5-20251101,wwtp_operator_challenge,3,11-02-2026 22:37,39,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,,1,20-12-2025 16:41,0.769230769,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Equipment Material Selection,1,18-12-2025 22:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Root Cause Analysis,1,19-12-2025 05:42,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Dewatering System Root Cause,1,18-12-2025 22:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Digester Walkway Material Selection,2,18-12-2025 22:31,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Confined Space Emergency Response,3,18-12-2025 21:49,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:26,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Sample Preservation Protocol,1,18-12-2025 22:26,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Confined Space Tool Selection,1,19-12-2025 06:07,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:06,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP SCADA Cabling Standards,1,18-12-2025 22:08,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:17,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:41,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s2_wwtp_pump_failure,1,10-02-2026 06:01,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s5_wwtp_sensor_conflict,1,10-02-2026 06:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s1_wwtp_morning_v6,1,10-02-2026 06:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s4_wwtp_confined_space_v2,1,10-02-2026 08:10,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s6_wwtp_illegal_discharge_v2,1,10-02-2026 11:02,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:07,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s8_wwtp_night_security_v4,1,10-02-2026 11:28,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:04,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,s10_wwtp_blackout_v3,1,10-02-2026 13:38,0.75,,,
+mehmetisik/wwtp-engineering-benchmark,claude-haiku-4-5-20251001,wwtp_operator_challenge,3,11-02-2026 22:37,40,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,,1,20-12-2025 16:43,0.692307692,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Equipment Material Selection,1,18-12-2025 07:40,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Root Cause Analysis,1,18-12-2025 08:07,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Dewatering System Root Cause,1,18-12-2025 08:30,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Digester Walkway Material Selection,2,18-12-2025 12:07,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Confined Space Emergency Response,3,18-12-2025 13:26,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:28,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Sample Preservation Protocol,1,18-12-2025 19:07,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Confined Space Tool Selection,1,18-12-2025 19:34,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 20:49,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP SCADA Cabling Standards,1,18-12-2025 21:12,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:27,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:47,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:43,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s2_wwtp_pump_failure,1,10-02-2026 06:27,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s5_wwtp_sensor_conflict,1,10-02-2026 06:46,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s1_wwtp_morning_v6,1,10-02-2026 07:03,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:47,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s4_wwtp_confined_space_v2,1,10-02-2026 09:30,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:41,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:21,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s8_wwtp_night_security_v4,1,10-02-2026 11:58,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s9_wwtp_flood_cascade_v2,1,10-02-2026 13:12,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,s10_wwtp_blackout_v3,1,10-02-2026 13:48,0.625,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.0-flash-001,wwtp_operator_challenge,3,11-02-2026 23:01,64,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,,1,20-12-2025 16:43,0.692307692,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Equipment Material Selection,1,18-12-2025 07:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Root Cause Analysis,1,18-12-2025 08:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Dewatering System Root Cause,1,18-12-2025 08:32,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Digester Walkway Material Selection,2,18-12-2025 12:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Confined Space Emergency Response,3,18-12-2025 13:27,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:02,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Sample Preservation Protocol,1,18-12-2025 22:26,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Confined Space Tool Selection,1,18-12-2025 22:23,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:06,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP SCADA Cabling Standards,1,18-12-2025 22:08,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:25,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:47,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:43,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s2_wwtp_pump_failure,1,07-02-2026 16:36,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s5_wwtp_sensor_conflict,1,07-02-2026 18:21,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s1_wwtp_morning_v6,1,07-02-2026 16:17,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s3_wwtp_biogas_leak_v2,1,07-02-2026 17:08,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s4_wwtp_confined_space_v2,1,07-02-2026 17:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s6_wwtp_illegal_discharge_v2,1,07-02-2026 18:45,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s7_wwtp_blower_hallucination_v2,1,07-02-2026 19:05,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s8_wwtp_night_security_v4,1,07-02-2026 20:01,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s9_wwtp_flood_cascade_v2,1,07-02-2026 20:14,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,s10_wwtp_blackout_v3,1,07-02-2026 20:25,0.562,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-pro,wwtp_operator_challenge,3,11-02-2026 22:52,43,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,,1,20-12-2025 16:38,0.692307692,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Equipment Material Selection,1,18-12-2025 22:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Root Cause Analysis,1,18-12-2025 22:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Dewatering System Root Cause,1,18-12-2025 22:16,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Digester Walkway Material Selection,2,18-12-2025 22:24,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Confined Space Emergency Response,3,18-12-2025 21:49,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:02,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Sample Preservation Protocol,1,18-12-2025 19:11,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Confined Space Tool Selection,1,18-12-2025 20:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 20:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP SCADA Cabling Standards,1,18-12-2025 21:14,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:11,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:40,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:38,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s2_wwtp_pump_failure,1,06-02-2026 21:25,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s5_wwtp_sensor_conflict,1,07-02-2026 18:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s1_wwtp_morning_v6,1,07-02-2026 16:11,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s3_wwtp_biogas_leak_v2,1,07-02-2026 17:04,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s4_wwtp_confined_space_v2,1,07-02-2026 17:46,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s6_wwtp_illegal_discharge_v2,1,07-02-2026 18:42,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s7_wwtp_blower_hallucination_v2,1,07-02-2026 19:00,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s8_wwtp_night_security_v4,1,07-02-2026 19:59,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s9_wwtp_flood_cascade_v2,1,07-02-2026 20:10,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,s10_wwtp_blackout_v3,1,07-02-2026 20:22,0.625,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-2.5-flash,wwtp_operator_challenge,3,11-02-2026 22:27,33,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,,1,10-02-2026 19:56,0.692307692,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Equipment Material Selection,1,10-02-2026 18:12,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Root Cause Analysis,1,10-02-2026 18:14,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Dewatering System Root Cause,1,10-02-2026 18:19,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Digester Walkway Material Selection,2,10-02-2026 18:24,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Confined Space Emergency Response,3,24-01-2026 22:21,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Biogas Desulfurization Recovery,1,10-02-2026 18:25,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Sample Preservation Protocol,1,10-02-2026 18:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Confined Space Tool Selection,1,10-02-2026 18:37,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Activated Sludge Emergency Flocculation,1,10-02-2026 19:56,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP SCADA Cabling Standards,1,10-02-2026 18:40,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Odor Collection Pipe Material Selection,1,10-02-2026 19:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Primary Clarifier Design Criteria,1,10-02-2026 19:56,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,10-02-2026 18:04,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s2_wwtp_pump_failure,1,10-02-2026 06:01,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s5_wwtp_sensor_conflict,1,10-02-2026 06:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s1_wwtp_morning_v6,1,10-02-2026 06:50,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s4_wwtp_confined_space_v2,1,10-02-2026 08:10,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:35,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:07,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s8_wwtp_night_security_v4,1,10-02-2026 11:28,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:04,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,s10_wwtp_blackout_v3,1,10-02-2026 13:34,0.812,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-flash-preview,wwtp_operator_challenge,3,11-02-2026 22:40,42,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,,1,10-02-2026 19:56,0.692307692,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Equipment Material Selection,1,10-02-2026 18:06,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Root Cause Analysis,1,10-02-2026 18:08,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Dewatering System Root Cause,1,10-02-2026 18:19,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Digester Walkway Material Selection,2,10-02-2026 18:24,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Confined Space Emergency Response,3,24-01-2026 22:21,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Biogas Desulfurization Recovery,1,10-02-2026 18:25,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Sample Preservation Protocol,1,10-02-2026 18:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Confined Space Tool Selection,1,10-02-2026 18:25,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Activated Sludge Emergency Flocculation,1,10-02-2026 18:37,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP SCADA Cabling Standards,1,10-02-2026 18:40,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Odor Collection Pipe Material Selection,1,10-02-2026 19:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Primary Clarifier Design Criteria,1,10-02-2026 19:56,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,10-02-2026 18:03,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s2_wwtp_pump_failure,1,10-02-2026 06:01,0.786,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s5_wwtp_sensor_conflict,1,10-02-2026 06:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s1_wwtp_morning_v6,1,10-02-2026 06:50,0.923,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:18,0.929,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s4_wwtp_confined_space_v2,1,10-02-2026 08:10,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:35,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:07,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s8_wwtp_night_security_v4,1,10-02-2026 11:28,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:04,0.867,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,s10_wwtp_blackout_v3,1,10-02-2026 13:34,0.625,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-next-80b-a3b-thinking,wwtp_operator_challenge,3,11-02-2026 22:37,47,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,,1,20-12-2025 16:43,0.615384615,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Equipment Material Selection,1,18-12-2025 22:29,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Root Cause Analysis,1,19-12-2025 05:39,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Dewatering System Root Cause,1,18-12-2025 22:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Digester Walkway Material Selection,2,18-12-2025 22:31,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Confined Space Emergency Response,3,18-12-2025 21:49,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:26,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Sample Preservation Protocol,1,19-12-2025 05:30,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Confined Space Tool Selection,1,18-12-2025 22:26,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:06,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP SCADA Cabling Standards,1,18-12-2025 22:08,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:25,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:48,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:43,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s2_wwtp_pump_failure,1,10-02-2026 06:04,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s5_wwtp_sensor_conflict,1,10-02-2026 06:41,0.8,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s1_wwtp_morning_v6,1,10-02-2026 06:52,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:28,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s4_wwtp_confined_space_v2,1,10-02-2026 08:15,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:40,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:12,1,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s8_wwtp_night_security_v4,1,10-02-2026 11:47,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:44,0.667,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,s10_wwtp_blackout_v3,1,10-02-2026 13:40,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,claude-opus-4-1-20250805,wwtp_operator_challenge,3,11-02-2026 22:47,38,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,,1,20-12-2025 16:45,0.615384615,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Equipment Material Selection,1,18-12-2025 22:29,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Root Cause Analysis,1,19-12-2025 05:39,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Dewatering System Root Cause,1,18-12-2025 08:32,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Digester Walkway Material Selection,2,18-12-2025 12:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Confined Space Emergency Response,3,18-12-2025 13:28,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:26,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Sample Preservation Protocol,1,18-12-2025 19:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Confined Space Tool Selection,1,18-12-2025 20:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 20:51,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP SCADA Cabling Standards,1,18-12-2025 21:14,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:17,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:45,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s2_wwtp_pump_failure,1,10-02-2026 06:04,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s5_wwtp_sensor_conflict,1,10-02-2026 06:41,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s1_wwtp_morning_v6,1,10-02-2026 06:52,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:28,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s4_wwtp_confined_space_v2,1,10-02-2026 08:15,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:12,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s8_wwtp_night_security_v4,1,10-02-2026 11:47,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:44,0.6,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,s10_wwtp_blackout_v3,1,10-02-2026 13:38,0.5,,,
+mehmetisik/wwtp-engineering-benchmark,gemini-3-pro-preview,wwtp_operator_challenge,3,11-02-2026 22:40,32,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,,1,20-12-2025 16:46,0.538461538,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Equipment Material Selection,1,18-12-2025 22:32,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Root Cause Analysis,1,19-12-2025 05:42,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Dewatering System Root Cause,1,18-12-2025 22:21,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Digester Walkway Material Selection,2,19-12-2025 05:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Confined Space Emergency Response,3,18-12-2025 21:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:28,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Sample Preservation Protocol,1,19-12-2025 05:44,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Confined Space Tool Selection,1,19-12-2025 06:09,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:12,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP SCADA Cabling Standards,1,18-12-2025 22:18,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:27,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s2_wwtp_pump_failure,1,10-02-2026 06:27,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s5_wwtp_sensor_conflict,1,10-02-2026 06:44,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s1_wwtp_morning_v6,1,10-02-2026 07:03,0.846,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:47,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s4_wwtp_confined_space_v2,1,11-02-2026 18:48,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:41,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s8_wwtp_night_security_v4,1,10-02-2026 11:58,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s9_wwtp_flood_cascade_v2,1,10-02-2026 13:12,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,s10_wwtp_blackout_v3,1,10-02-2026 13:42,0.625,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-27b-it,wwtp_operator_challenge,3,11-02-2026 22:58,55,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,,1,20-12-2025 16:45,0.538461538,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Equipment Material Selection,1,18-12-2025 22:30,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Root Cause Analysis,1,19-12-2025 05:39,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Dewatering System Root Cause,1,18-12-2025 22:21,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Digester Walkway Material Selection,2,19-12-2025 05:46,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Confined Space Emergency Response,3,18-12-2025 21:51,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:03,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Sample Preservation Protocol,1,19-12-2025 05:30,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Confined Space Tool Selection,1,19-12-2025 06:07,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:12,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP SCADA Cabling Standards,1,18-12-2025 22:18,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:27,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:45,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s2_wwtp_pump_failure,1,10-02-2026 06:27,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s5_wwtp_sensor_conflict,1,10-02-2026 06:44,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s1_wwtp_morning_v6,1,10-02-2026 07:03,0.769,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:47,0.929,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s4_wwtp_confined_space_v2,1,10-02-2026 08:20,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:40,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:18,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s8_wwtp_night_security_v4,1,10-02-2026 11:58,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s9_wwtp_flood_cascade_v2,1,10-02-2026 13:12,0.533,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,s10_wwtp_blackout_v3,1,10-02-2026 13:42,0.812,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-12b-it,wwtp_operator_challenge,3,11-02-2026 22:55,26,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,,1,20-12-2025 16:45,0.538461538,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Equipment Material Selection,1,18-12-2025 07:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Root Cause Analysis,1,18-12-2025 08:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Dewatering System Root Cause,1,18-12-2025 08:32,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Digester Walkway Material Selection,2,18-12-2025 12:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Confined Space Emergency Response,3,18-12-2025 13:28,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Biogas Desulfurization Recovery,1,19-12-2025 05:28,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Sample Preservation Protocol,1,18-12-2025 19:10,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Confined Space Tool Selection,1,18-12-2025 20:16,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 20:51,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP SCADA Cabling Standards,1,18-12-2025 21:15,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:17,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:51,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:45,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s2_wwtp_pump_failure,1,10-02-2026 06:04,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s5_wwtp_sensor_conflict,1,10-02-2026 06:41,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s1_wwtp_morning_v6,1,10-02-2026 06:52,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:28,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s4_wwtp_confined_space_v2,1,10-02-2026 08:15,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:37,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:12,1,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s8_wwtp_night_security_v4,1,10-02-2026 11:47,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s9_wwtp_flood_cascade_v2,1,10-02-2026 12:44,0.6,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,s10_wwtp_blackout_v3,1,10-02-2026 13:37,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,qwen3-coder-480b-a35b-instruct,wwtp_operator_challenge,3,11-02-2026 22:47,39,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,,1,20-12-2025 16:45,0.461538462,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Equipment Material Selection,1,19-12-2025 05:24,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Root Cause Analysis,1,19-12-2025 05:42,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Dewatering System Root Cause,1,18-12-2025 22:21,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Digester Walkway Material Selection,2,19-12-2025 05:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Confined Space Emergency Response,3,18-12-2025 21:58,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:04,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Sample Preservation Protocol,1,19-12-2025 05:44,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Confined Space Tool Selection,1,19-12-2025 06:09,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:14,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP SCADA Cabling Standards,1,18-12-2025 22:20,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:45,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Primary Clarifier Design Criteria,1,20-12-2025 15:51,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:45,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s2_wwtp_pump_failure,1,10-02-2026 06:27,0.857,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s5_wwtp_sensor_conflict,1,10-02-2026 06:46,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s1_wwtp_morning_v6,1,10-02-2026 07:03,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:47,0.929,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s4_wwtp_confined_space_v2,1,10-02-2026 08:20,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s6_wwtp_illegal_discharge_v2,1,10-02-2026 09:41,1,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:18,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s8_wwtp_night_security_v4,1,10-02-2026 11:58,0.933,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s9_wwtp_flood_cascade_v2,1,10-02-2026 13:12,0.533,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,s10_wwtp_blackout_v3,1,10-02-2026 13:42,0.688,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-4b-it,wwtp_operator_challenge,3,11-02-2026 22:58,40,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,,1,11-02-2026 18:13,0.25,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Equipment Material Selection,1,19-12-2025 05:24,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Root Cause Analysis,1,19-12-2025 05:42,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Dewatering System Root Cause,1,18-12-2025 22:23,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Digester Walkway Material Selection,2,19-12-2025 05:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Confined Space Emergency Response,3,18-12-2025 21:51,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:03,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Sample Preservation Protocol,1,19-12-2025 05:30,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Confined Space Tool Selection,1,19-12-2025 06:09,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:14,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP SCADA Cabling Standards,1,18-12-2025 22:18,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:27,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Primary Clarifier Design Criteria,1,20-12-2025 16:20,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:48,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s2_wwtp_pump_failure,1,10-02-2026 06:04,0.571,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s5_wwtp_sensor_conflict,1,10-02-2026 06:41,0.533,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s1_wwtp_morning_v6,1,10-02-2026 06:53,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s3_wwtp_biogas_leak_v2,1,10-02-2026 07:28,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s4_wwtp_confined_space_v2,1,11-02-2026 18:13,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s6_wwtp_illegal_discharge_v2,1,10-02-2026 11:02,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s7_wwtp_blower_hallucination_v2,1,10-02-2026 11:18,0.467,,,
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s8_wwtp_night_security_v4,1,10-02-2026 11:47,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s9_wwtp_flood_cascade_v2,1,10-02-2026 13:38,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,s10_wwtp_blackout_v3,1,10-02-2026 13:50,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,gemma-3-1b-it,wwtp_operator_challenge,3,11-02-2026 22:52,28,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,,1,10-02-2026 13:50,0.05,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Equipment Material Selection,1,18-12-2025 07:46,,,,TRUE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Root Cause Analysis,1,18-12-2025 08:10,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Dewatering System Root Cause,1,18-12-2025 22:23,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Digester Walkway Material Selection,2,19-12-2025 06:07,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Confined Space Emergency Response,3,18-12-2025 21:49,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Biogas Desulfurization Recovery,1,18-12-2025 22:04,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Sample Preservation Protocol,1,19-12-2025 05:44,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Confined Space Tool Selection,1,19-12-2025 06:09,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Activated Sludge Emergency Flocculation,1,18-12-2025 22:12,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP SCADA Cabling Standards,1,18-12-2025 22:18,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Odor Collection Pipe Material Selection,1,20-12-2025 15:45,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Primary Clarifier Design Criteria,1,20-12-2025 16:20,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,WWTP Emergency Response Sequencing - Sludge Bulking Crisis,3,20-12-2025 16:47,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s2_wwtp_pump_failure,1,07-02-2026 16:47,0.786,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s5_wwtp_sensor_conflict,1,07-02-2026 18:27,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s1_wwtp_morning_v6,1,07-02-2026 16:29,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s3_wwtp_biogas_leak_v2,1,07-02-2026 17:26,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s4_wwtp_confined_space_v2,1,07-02-2026 21:15,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s6_wwtp_illegal_discharge_v2,1,10-02-2026 11:02,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s7_wwtp_blower_hallucination_v2,1,07-02-2026 19:13,1,,,
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s8_wwtp_night_security_v4,1,07-02-2026 20:37,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s9_wwtp_flood_cascade_v2,1,10-02-2026 13:39,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,s10_wwtp_blackout_v3,1,10-02-2026 13:50,,,,FALSE
+mehmetisik/wwtp-engineering-benchmark,deepseek-r1-0528,wwtp_operator_challenge,3,11-02-2026 22:58,41,,,
