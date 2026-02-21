@@ -24,8 +24,6 @@ Excess Kurtosis: 8.66 (Leptokurtic/Fat-Tailed)
 The results indicate that while the average performance is low, "elite" outlier models drive the top end of the scale, suggesting an "all or nothing" performance landscape in current engineering AI.
 
 Installation & Usage
-Clone the repository:
-git clone https://github.com/[Your-Username]/[Your-Repo-Name].git
 
 Install dependencies:
 pip install -r requirements.txt
