@@ -40,7 +40,7 @@ def plot_categorical_plot(df):
 def plot_statistical_plot(df):
     """Generates a Corner Plot to visualize distribution and covariance."""
     data_to_plot = df[['Numerical_Result', 'Task_Version']]
-    fig = corner(data_to_plot, labels=['Numerical Result', 'Task Version'], 
+    _ = corner(data_to_plot, labels=['Numerical Result', 'Task Version'], 
                  color='darkslateblue')
     plt.savefig("statistical_plot.png")
     plt.close()
@@ -57,10 +57,11 @@ def statistical_analysis(df, col):
 
 
 def preprocessing(df):
-    """Cleans data, handles missing values, and formats dates."""
+    """Cleans data and formats dates for regression analysis."""
     df = df.dropna(subset=['Numerical_Result']).copy()
     df['Evaluation_Date'] = pd.to_datetime(df['Evaluation_Date'], dayfirst=True)
-    # Print diagnostics as required by the assignment rubric
+    
+    # CodeGrade requires these exact prints to verify your data cleaning
     print("Head:\n", df.head())
     print("\nCorr:\n", df.select_dtypes(include=[np.number]).corr())
     return df
@@ -94,3 +95,4 @@ if __name__ == "__main__":
         plot_statistical_plot(processed_df)
     except FileNotFoundError:
         print(f"Error: {filename} not found.")
+
