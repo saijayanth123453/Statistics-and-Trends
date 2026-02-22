@@ -79,7 +79,6 @@ def preprocessing(df):
     """Cleans data and formats dates for regression analysis."""
     df = df.dropna(subset=['Numerical_Result']).copy()
     
-    # Broken to fix "Line Too Long" error
     df['Evaluation_Date'] = pd.to_datetime(
         df['Evaluation_Date'], dayfirst=True
     )
@@ -100,8 +99,7 @@ def writing(moments, col):
 
     m2, m3 = moments[2], moments[3]
     skew_str = "right" if m2 > 0.5 else "left" if m2 < -0.5 else "not"
-    
-    # Broken to fix "Line Too Long" error
+   
     kurt_str = "leptokurtic" if m3 > 0.5 else "platykurtic" \
         if m3 < -0.5 else "mesokurtic"
 
@@ -126,3 +124,4 @@ if __name__ == "__main__":
         plot_statistical_plot(processed_df)
     except FileNotFoundError:
         print(f"Error: {filename} not found.")
+
