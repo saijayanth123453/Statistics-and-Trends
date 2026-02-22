@@ -1,20 +1,3 @@
-"""
-This is the template file for the statistics and trends assignment.
-You will be expected to complete all the sections and
-make this a fully working, documented file.
-You should NOT change any function, file or variable names,
- if they are given to you here.
-Make use of the functions presented in the lectures
-and ensure your code is PEP-8 compliant, including docstrings.
-"""
-
-"""
-WWTP Engineering Benchmark Analysis
-Student ID: 25023235
-Description: Statistical analysis and visualization of AI model performance 
-in the wastewater engineering domain.
-"""
-
 from corner import corner
 import matplotlib.pyplot as plt
 import numpy as np
@@ -121,3 +104,4 @@ if __name__ == "__main__":
         
     except FileNotFoundError:
         print(f"Error: {filename} not found.")
+
