@@ -1,3 +1,9 @@
+"""
+WWTP Engineering Benchmark Analysis
+Student ID: 25023235
+Description: Statistical analysis and visualization of AI model performance.
+"""
+
 from corner import corner
 import matplotlib.pyplot as plt
 import numpy as np
@@ -9,14 +15,18 @@ import seaborn as sns
 def plot_relational_plot(df):
     """Generates a Scatter Plot with a Regression line showing growth."""
     fig, ax = plt.subplots(figsize=(10, 6))
+    
     # Sort and prepare dates for numeric regression
     df_plot = df.sort_values('Evaluation_Date')
     x_days = (df_plot['Evaluation_Date'] - df_plot['Evaluation_Date'].min()).dt.days
+    
     ax.scatter(df_plot['Evaluation_Date'], df_plot['Numerical_Result'], 
                alpha=0.5, color='#34495e', label='Evaluations')
+    
     # Linear Regression
     m, b = np.polyfit(x_days, df_plot['Numerical_Result'], 1)
     ax.plot(df_plot['Evaluation_Date'], m*x_days + b, color='#e67e22', linewidth=3)
+    
     ax.set_title("AI Engineering Performance Trajectory")
     ax.set_xlabel("Timeline")
     ax.set_ylabel("Benchmark Score")
@@ -40,8 +50,9 @@ def plot_categorical_plot(df):
 def plot_statistical_plot(df):
     """Generates a Corner Plot to visualize distribution and covariance."""
     data_to_plot = df[['Numerical_Result', 'Task_Version']]
+    # _ used here to satisfy PEP-8 'unused variable' rule
     _ = corner(data_to_plot, labels=['Numerical Result', 'Task Version'], 
-                 color='darkslateblue')
+               color='darkslateblue')
     plt.savefig("statistical_plot.png")
     plt.close()
 
@@ -74,25 +85,27 @@ def writing(moments, col):
           f'Standard Deviation = {moments[1]:.2f}, '
           f'Skewness = {moments[2]:.2f}, and '
           f'Excess Kurtosis = {moments[3]:.2f}.')
+    
     skew_str = "right" if moments[2] > 0.5 else "left" if moments[2] < -0.5 else "not"
     kurt_str = "leptokurtic" if moments[3] > 0.5 else "platykurtic" if moments[3] < -0.5 else "mesokurtic"
     print(f'The data was {skew_str} skewed and {kurt_str}.')
 
 
 if __name__ == "__main__":
-    # Ensure this filename matches the dataset in your repository
+    # Ensure this matches the official filename provided in the instructions
     filename = 'data.csv'
     try:
         raw_df = pd.read_csv(filename)
         processed_df = preprocessing(raw_df)
+        
         # Attribute for analysis
         target_column = 'Numerical_Result'
         results = statistical_analysis(processed_df, target_column)
         writing(results, target_column)
+        
         # Generate and save the three plots
         plot_relational_plot(processed_df)
         plot_categorical_plot(processed_df)
         plot_statistical_plot(processed_df)
     except FileNotFoundError:
         print(f"Error: {filename} not found.")
-
