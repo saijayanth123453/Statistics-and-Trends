@@ -8,6 +8,13 @@ Make use of the functions presented in the lectures
 and ensure your code is PEP-8 compliant, including docstrings.
 """
 
+"""
+WWTP Engineering Benchmark Analysis
+Student ID: 25023235
+Description: Statistical analysis and visualization of AI model performance 
+in the wastewater engineering domain.
+"""
+
 from corner import corner
 import matplotlib.pyplot as plt
 import numpy as np
@@ -17,61 +24,51 @@ import seaborn as sns
 
 
 def plot_relational_plot(df):
-    """Generates a Scatter Plot with a Trend Line showing performance over time."""
+    """Generates a Scatter Plot with a Regression line showing growth."""
     fig, ax = plt.subplots(figsize=(10, 6))
     
-    # Prepping date for regression (needs to be numeric)
+    # Sort and prepare dates for numeric regression
     df_plot = df.sort_values('Evaluation_Date')
     x_days = (df_plot['Evaluation_Date'] - df_plot['Evaluation_Date'].min()).dt.days
     
-    # Scatter points
     ax.scatter(df_plot['Evaluation_Date'], df_plot['Numerical_Result'], 
-               alpha=0.5, color='#34495e', label='Individual Evaluations')
+               alpha=0.5, color='#34495e', label='Evaluations')
     
-    # Regression Line (Trend)
+    # Linear Regression
     m, b = np.polyfit(x_days, df_plot['Numerical_Result'], 1)
-    ax.plot(df_plot['Evaluation_Date'], m*x_days + b, color='#e67e22', linewidth=3, label='Performance Trend')
+    ax.plot(df_plot['Evaluation_Date'], m*x_days + b, color='#e67e22', linewidth=3)
     
-    ax.set_title('AI Performance Trajectory in WWTP Benchmarking', fontsize=12, fontweight='bold')
-    ax.set_xlabel('Evaluation Date')
-    ax.set_ylabel('Numerical Score')
-    ax.legend()
-    plt.xticks(rotation=30)
-    
-    plt.tight_layout()
-    plt.savefig('relational_plot.png')
-    return
+    ax.set_title("AI Engineering Performance Trajectory")
+    ax.set_xlabel("Timeline")
+    ax.set_ylabel("Benchmark Score")
+    plt.savefig("relational_plot.png")
+    plt.close()
 
 
 def plot_categorical_plot(df):
-    """Generates a Lollipop Chart for model performance comparison."""
-    fig, ax = plt.subplots(figsize=(10, 8))
+    """Creates a Lollipop Chart ranking mean performance per model."""
     avg_scores = df.groupby('Model')['Numerical_Result'].mean().sort_values()
-    
-    ax.hlines(y=avg_scores.index, xmin=0, xmax=avg_scores.values, color='lightgrey', linewidth=2)
-    ax.plot(avg_scores.values, avg_scores.index, "o", color='#e74c3c', markersize=8)
-    
-    ax.set_title('Model Efficiency Comparison (Lollipop Analysis)', fontsize=12, fontweight='bold')
-    ax.set_xlabel('Average Numerical Result')
+    plt.figure(figsize=(10, 10))
+    plt.hlines(y=avg_scores.index, xmin=0, xmax=avg_scores.values, color='skyblue')
+    plt.plot(avg_scores.values, avg_scores.index, "o", color='#c0392b')
+    plt.title("Model Performance Leaderboard")
+    plt.xlabel("Average Numerical Result")
     plt.tight_layout()
-    plt.savefig('categorical_plot.png')
-    return
+    plt.savefig("categorical_plot.png")
+    plt.close()
 
 
 def plot_statistical_plot(df):
-    """Generates a Corner Plot to visualize distributions and correlations."""
-    cols_for_corner = ['Task_Version', 'Numerical_Result']
-    data_for_corner = df[cols_for_corner].values
-    
-    fig = corner(data_for_corner, labels=cols_for_corner, color='#3498db', 
-                 show_titles=True, title_kwargs={"fontsize": 12})
-    
-    plt.savefig('statistical_plot.png')
-    return
+    """Generates a Corner Plot to visualize distribution and covariance."""
+    data_to_plot = df[['Numerical_Result', 'Task_Version']]
+    fig = corner(data_to_plot, labels=['Numerical Result', 'Task Version'], 
+                 color='darkslateblue')
+    plt.savefig("statistical_plot.png")
+    plt.close()
 
 
-def statistical_analysis(df, col: str):
-    """Calculates the 4 main statistical moments."""
+def statistical_analysis(df, col):
+    """Calculates the four statistical moments for the specified column."""
     data = df[col]
     mean = data.mean()
     stddev = data.std()
@@ -81,18 +78,19 @@ def statistical_analysis(df, col: str):
 
 
 def preprocessing(df):
-    """Cleans data and formats dates for regression analysis."""
+    """Cleans data, handles missing values, and formats dates."""
     df = df.dropna(subset=['Numerical_Result']).copy()
     df['Evaluation_Date'] = pd.to_datetime(df['Evaluation_Date'], dayfirst=True)
-    # Print diagnostics as required by template
+    
+    # Print diagnostics as required by the assignment rubric
     print("Head:\n", df.head())
     print("\nCorr:\n", df.select_dtypes(include=[np.number]).corr())
     return df
 
 
 def writing(moments, col):
-    """Prints the analysis findings for the report."""
-    print(f'For the attribute {col}:')
+    """Prints the statistical findings and interpretations."""
+    print(f'\nFor the attribute {col}:')
     print(f'Mean = {moments[0]:.2f}, '
           f'Standard Deviation = {moments[1]:.2f}, '
           f'Skewness = {moments[2]:.2f}, and '
@@ -101,23 +99,25 @@ def writing(moments, col):
     skew_str = "right" if moments[2] > 0.5 else "left" if moments[2] < -0.5 else "not"
     kurt_str = "leptokurtic" if moments[3] > 0.5 else "platykurtic" if moments[3] < -0.5 else "mesokurtic"
     print(f'The data was {skew_str} skewed and {kurt_str}.')
-    return
-
-
-def main():
-    """Main execution entry point."""
-    filename = 'data.csv'
-    df = pd.read_csv(filename)
-    df = preprocessing(df)
-    
-    target_col = 'Numerical_Result'
-    moments = statistical_analysis(df, target_col)
-    writing(moments, target_col)
-    
-    plot_relational_plot(df)
-    plot_categorical_plot(df)
-    plot_statistical_plot(df)
 
 
 if __name__ == "__main__":
-    main()
+    # Ensure this filename matches the dataset in your repository
+    filename = 'data.csv'
+    try:
+        raw_df = pd.read_csv(filename)
+        processed_df = preprocessing(raw_df)
+        
+        # Attribute for analysis
+        target_column = 'Numerical_Result'
+        
+        results = statistical_analysis(processed_df, target_column)
+        writing(results, target_column)
+        
+        # Generate and save the three plots
+        plot_relational_plot(processed_df)
+        plot_categorical_plot(processed_df)
+        plot_statistical_plot(processed_df)
+        
+    except FileNotFoundError:
+        print(f"Error: {filename} not found.")
