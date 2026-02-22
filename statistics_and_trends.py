@@ -78,7 +78,9 @@ def statistical_analysis(df, col):
 def preprocessing(df):
     """Cleans data and formats dates for regression analysis."""
     df = df.dropna(subset=['Numerical_Result']).copy()
-    df['Evaluation_Date'] = pd.to_datetime(df['Evaluation_Date'], dayfirst=True)
+    df['Evaluation_Date'] = pd.to_datetime(
+        df['Evaluation_Date'], dayfirst=True
+    )
 
     # Required diagnostic prints
     print("Head:\n", df.head())
@@ -120,3 +122,4 @@ if __name__ == "__main__":
         plot_statistical_plot(processed_df)
     except FileNotFoundError:
         print(f"Error: {filename} not found.")
+
