@@ -122,4 +122,3 @@ if __name__ == "__main__":
         plot_statistical_plot(processed_df)
     except FileNotFoundError:
         print(f"Error: {filename} not found.")
-
