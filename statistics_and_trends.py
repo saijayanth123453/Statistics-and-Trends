@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import scipy.stats as ss
 import seaborn as sns
+
+
 def plot_relational_plot(df):
     """Generates a Scatter Plot with a Regression line showing growth."""
     fig, ax = plt.subplots(figsize=(10, 6))
@@ -20,6 +22,8 @@ def plot_relational_plot(df):
     ax.set_ylabel("Benchmark Score")
     plt.savefig("relational_plot.png")
     plt.close()
+
+
 def plot_categorical_plot(df):
     """Creates a Lollipop Chart ranking mean performance per model."""
     avg_scores = df.groupby('Model')['Numerical_Result'].mean().sort_values()
@@ -31,6 +35,8 @@ def plot_categorical_plot(df):
     plt.tight_layout()
     plt.savefig("categorical_plot.png")
     plt.close()
+
+
 def plot_statistical_plot(df):
     """Generates a Corner Plot to visualize distribution and covariance."""
     data_to_plot = df[['Numerical_Result', 'Task_Version']]
@@ -38,6 +44,8 @@ def plot_statistical_plot(df):
                  color='darkslateblue')
     plt.savefig("statistical_plot.png")
     plt.close()
+
+
 def statistical_analysis(df, col):
     """Calculates the four statistical moments for the specified column."""
     data = df[col]
@@ -46,6 +54,8 @@ def statistical_analysis(df, col):
     skew = ss.skew(data)
     excess_kurtosis = ss.kurtosis(data)
     return mean, stddev, skew, excess_kurtosis
+
+
 def preprocessing(df):
     """Cleans data, handles missing values, and formats dates."""
     df = df.dropna(subset=['Numerical_Result']).copy()
@@ -54,6 +64,8 @@ def preprocessing(df):
     print("Head:\n", df.head())
     print("\nCorr:\n", df.select_dtypes(include=[np.number]).corr())
     return df
+
+
 def writing(moments, col):
     """Prints the statistical findings and interpretations."""
     print(f'\nFor the attribute {col}:')
@@ -64,6 +76,8 @@ def writing(moments, col):
     skew_str = "right" if moments[2] > 0.5 else "left" if moments[2] < -0.5 else "not"
     kurt_str = "leptokurtic" if moments[3] > 0.5 else "platykurtic" if moments[3] < -0.5 else "mesokurtic"
     print(f'The data was {skew_str} skewed and {kurt_str}.')
+
+
 if __name__ == "__main__":
     # Ensure this filename matches the dataset in your repository
     filename = 'data.csv'
@@ -80,5 +94,3 @@ if __name__ == "__main__":
         plot_statistical_plot(processed_df)
     except FileNotFoundError:
         print(f"Error: {filename} not found.")
-
-
